@@ -335,12 +335,9 @@ def stat_by_dpt(dd, dpt):
     >>> sbd = stat_by_dpt(dd, 'Corse')
 
     """
-    # votre code ici
     return dd.get(dpt)
 
 def main():
-    # votre code de test ici
-    # le code ci dessous est exécuté avec la commande :
     #   python population.py
     data = read_file(FILENAME)
     assert len(data) == 140827
@@ -367,7 +364,6 @@ def main():
     print('Tous les tests de main() sont passes.')
 
     
-# Ne pas modifier le code ci-dessous
 if __name__ == '__main__':
     dt = True
     # dt = False # Décommenter pour exécuter "main()"
